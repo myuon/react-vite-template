@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
   extends: [
     "eslint:recommended",
@@ -26,7 +27,8 @@ module.exports = {
     "react/display-name": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    // cf: https://qiita.com/yuto-ono/items/6642b16f720c9e82fef4
+    // for emotion
+    // cf: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md#rule-options
     "react/no-unknown-property": ["error", { ignore: ["css"] }],
   },
   ignorePatterns: [".eslintrc.js"],
