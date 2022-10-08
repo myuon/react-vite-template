@@ -31,9 +31,9 @@ function App() {
 
       <div
         css={css`
+          padding: 10px;
           background-color: #f9f9f9;
           border: 1px solid #ddd;
-          padding: 10px;
         `}
       >
         EMOTION INSTALLED
