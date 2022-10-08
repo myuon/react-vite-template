@@ -1,1 +1,1 @@
-# vite-template
+# react-vite-template
